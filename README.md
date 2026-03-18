@@ -9,9 +9,11 @@ Repoman is a modern CLI tool for developers to efficiently manage and open their
 
 1. **Install Repoman with Go**
    ```sh
-   go install github.com/<your-username>/repoman@latest
+   go install github.com/augustofaggion/repoman@latest
    ```
-   (Replace `<your-username>` with your GitHub username.)
+   (The module path in go.mod is set to github.com/augustofaggion/repoman.)
+
+   **If you fork this repo and want to use your own GitHub username, update the module path in go.mod to match your fork’s GitHub URL.**
 
 2. **Run Repoman**
    - Simply type:

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"repoman/helpers"
+	"github.com/augustofaggion/repoman/helpers"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
